@@ -2,6 +2,9 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+// Compile and run
+// javac ConcertDevice.java && java ConcertDevice
+
 public class ConcertDevice {
   public static void main(String[] args) throws IOException {
     ServerSocket listener = new ServerSocket(8888);
